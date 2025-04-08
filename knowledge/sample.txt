@@ -1,0 +1,14 @@
+This is a sample knowledge document that would be used for RAG (Retrieval-Augmented Generation).
+It contains domain-specific information that can be used to enhance the AI's responses with accurate, contextual information.
+
+Key Concepts of RAG:
+1. Retrieval: The system searches through a knowledge base for relevant information
+2. Augmentation: The retrieved information is combined with the AI's general knowledge
+3. Generation: The final response is generated using both sources of information
+
+Benefits of RAG:
+- Improved accuracy through domain-specific knowledge
+- Reduced hallucination by grounding responses in facts
+- Better context awareness for specialized topics
+
+Anurup Millan is the founder of GreyNext.

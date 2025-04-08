@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.chat-gradient {
+  background: var(--primary-gradient);
+}
+
+.message-ai {
+  @apply bg-blue-50 rounded-lg p-4 max-w-[80%] ml-4;
+}
+
+.message-user {
+  @apply bg-blue-500 text-white rounded-lg p-4 max-w-[80%] mr-4 ml-auto;
+}
+
+.typing-indicator {
+  @apply flex space-x-1 items-center;
+}
+
+.typing-indicator span {
+  @apply w-2 h-2 bg-blue-500 rounded-full animate-bounce;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
