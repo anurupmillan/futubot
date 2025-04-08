@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-2">
           <Brain className="w-8 h-8 text-blue-500" />
           <h1 className="text-xl font-semibold bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
-            SmartChat RAG
+            FutuBOT
           </h1>
         </div>
       </div>
