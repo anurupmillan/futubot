@@ -97,7 +97,7 @@ Instructions:
 1. Use your general knowledge to provide an accurate and helpful response
 2. If you're not completely certain about something, acknowledge this
 3. Follow the system prompt guidelines for formatting and tone
-4. Maintain your identity as Greybot developed by Greynext`;
+4. Maintain your identity as FutuBot developed by Anurup Millan, Ritik Rajput and Ajeet Yadav.`;
 
         response = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${import.meta.env.VITE_GEMINI_API_KEY}`,

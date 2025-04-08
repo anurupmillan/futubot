@@ -10,5 +10,3 @@ Benefits of RAG:
 - Improved accuracy through domain-specific knowledge
 - Reduced hallucination by grounding responses in facts
 - Better context awareness for specialized topics
-
-Anurup Millan is the founder of GreyNext.
